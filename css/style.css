@@ -73,7 +73,7 @@ a:hover {
 }
 
 .nav-brand h1 {
-    font-size: 0.85rem;
+    font-size: 1.1rem;
     font-weight: 400;
     letter-spacing: 0.08em;
     color: var(--text-cream);
@@ -260,7 +260,7 @@ a:hover {
 
 .artist-card h3 {
     position: absolute;
-    bottom: 0.75rem;
+    bottom: 2rem;
     left: 0.75rem;
     right: 0.75rem;
     font-size: 0.85rem;
