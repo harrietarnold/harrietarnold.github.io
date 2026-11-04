@@ -1,59 +1,221 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Harriet Arnold</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harriet Arnold | Concert Photography</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="/">
+                    <h1>HARRIET ARNOLD</h1>
+                    <p>CONCERT PHOTOGRAPHY</p>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">HOME</a></li>
+                <li><a href="#artists">ARTISTS</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="https://instagram.com/harrietarnoldphoto" target="_blank" class="social-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <circle cx="17.5" cy="6.5" r="1.5"></circle>
+                    </svg>
+                </a></li>
+                <li><a href="mailto:harrietarnoldphoto@gmail.com" class="social-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <style>
-            body {
-                padding-bottom: 20px;
-            }
-            .jumbotron {
-              background-color: #0099ff;
-              background-image: url(/img/nile/hero.jpg);
-              background-size: cover;
-              background-repeat: no-repeat;
-              background-position: center;
-              color: #fff;
-              text-shadow: 2px 2px #000000;
-            }
-        </style>
-        <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="/css/main.css">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">MUSIC<br>CAPTURED<br>DIFFERENTLY</h2>
+            <p class="hero-subtitle">LIVE MUSIC • TOUR PHOTOGRAPHY • EDITORIAL</p>
+            <div class="scroll-indicator">↓ SCROLL</div>
+        </div>
+        <img src="img/hero-placeholder.jpg" alt="Featured concert photography" class="hero-image">
+        <div class="hero-overlay"></div>
+    </section>
 
-        <script src="/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body>
+    <!-- Artists Section -->
+    <section class="artists" id="artists">
+        <div class="section-header">
+            <h2>FEATURED ARTISTS</h2>
+        </div>
+        <div class="artists-grid">
+            <a href="artists/fontaines-dc.html" class="artist-card">
+                <div class="artist-image">
+                    <img src="img/artist-fontaines-dc.jpg" alt="Fontaines D.C.">
+                </div>
+                <h3>Fontaines D.C.</h3>
+                <p class="view-work">VIEW WORK →</p>
+            </a>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Harriet Arnold</h1>
-      </div>
-    </div>
+            <a href="artists/the-royston-club.html" class="artist-card">
+                <div class="artist-image">
+                    <img src="img/artist-royston-club.jpg" alt="The Royston Club">
+                </div>
+                <h3>The Royston Club</h3>
+                <p class="view-work">VIEW WORK →</p>
+            </a>
 
-    <div class="container">
-      <h2>Homework</h2>
-      <ul>
-        <li><a href="/geography/2020/the_river_nile.html">Geography: The River Nile</a></li>
-      </ul>
-      <hr>
-      <footer>
-        <p>&copy; Harriet Arnold 2020</p>
-      </footer>
-    </div>
+            <a href="artists/catfish-and-the-bottlemen.html" class="artist-card">
+                <div class="artist-image">
+                    <img src="img/artist-catfish.jpg" alt="Catfish and the Bottlemen">
+                </div>
+                <h3>Catfish and the Bottlemen</h3>
+                <p class="view-work">VIEW WORK →</p>
+            </a>
 
-	<!-- /container -->
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-      <script src="/js/vendor/bootstrap.min.js"></script>
-      <script src="/js/main.js"></script>
-    </body>
+            <a href="artists/the-smashing-pumpkins.html" class="artist-card">
+                <div class="artist-image">
+                    <img src="img/artist-smashing-pumpkins.jpg" alt="The Smashing Pumpkins">
+                </div>
+                <h3>The Smashing Pumpkins</h3>
+                <p class="view-work">VIEW WORK →</p>
+            </a>
+
+            <a href="artists/wunderhorse.html" class="artist-card">
+                <div class="artist-image">
+                    <img src="img/artist-wunderhorse.jpg" alt="Wunderhorse">
+                </div>
+                <h3>Wunderhorse</h3>
+                <p class="view-work">VIEW WORK →</p>
+            </a>
+
+            <a href="artists/inhaler.html" class="artist-card">
+                <div class="artist-image">
+                    <img src="img/artist-inhaler.jpg" alt="Inhaler">
+                </div>
+                <h3>Inhaler</h3>
+                <p class="view-work">VIEW WORK →</p>
+            </a>
+
+            <a href="artists/arkayla.html" class="artist-card">
+                <div class="artist-image">
+                    <img src="img/artist-arkayla.jpg" alt="Arkayla">
+                </div>
+                <h3>Arkayla</h3>
+                <p class="view-work">VIEW WORK →</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <h2>ABOUT HARRIET</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="img/about-photo.jpg" alt="Harriet Arnold with camera">
+            </div>
+            <div class="about-text">
+                <p>I'm Harriet Arnold, an aspiring concert photographer based in the UK, capturing the raw energy, emotion and atmosphere of live music. My work focuses on the connection between artists and their audiences — the moments that make live music unforgettable.</p>
+                <p class="about-quote">"There's nothing quiet about a moment that matters."</p>
+                <a href="#contact" class="btn">READ MORE →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="section-header">
+            <h2>PORTFOLIO</h2>
+            <p class="section-subtitle">Recent Work</p>
+        </div>
+        <div class="portfolio-grid">
+            <a href="artists/fontaines-dc.html" class="portfolio-item">
+                <img src="img/portfolio-1.jpg" alt="Fontaines D.C.">
+                <div class="portfolio-overlay">
+                    <h3>Fontaines D.C.</h3>
+                </div>
+            </a>
+            <a href="artists/wunderhorse.html" class="portfolio-item">
+                <img src="img/portfolio-2.jpg" alt="Wunderhorse">
+                <div class="portfolio-overlay">
+                    <h3>Wunderhorse</h3>
+                </div>
+            </a>
+            <a href="artists/the-smashing-pumpkins.html" class="portfolio-item">
+                <img src="img/portfolio-3.jpg" alt="The Smashing Pumpkins">
+                <div class="portfolio-overlay">
+                    <h3>The Smashing Pumpkins</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <h2>CONTACT</h2>
+            <p class="section-subtitle">LET'S WORK TOGETHER</p>
+        </div>
+        <div class="contact-content">
+            <p>I'm always open to new opportunities, whether it's tour photography, press work, festivals or something new. Feel free to get in touch.</p>
+            <div class="contact-links">
+                <a href="mailto:harrietarnoldphoto@gmail.com" class="contact-item">
+                    <span class="contact-icon">✉</span>
+                    <span>harrietarnoldphoto@gmail.com</span>
+                </a>
+                <a href="https://instagram.com/harrietarnoldphoto" target="_blank" class="contact-item">
+                    <span class="contact-icon">◆</span>
+                    <span>@harrietarnoldphoto</span>
+                </a>
+                <div class="contact-item">
+                    <span class="contact-icon">▲</span>
+                    <span>UK</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <a href="/">HOME</a>
+                <a href="#artists">ARTISTS</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#about">ABOUT</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+            <div class="footer-social">
+                <a href="https://instagram.com/harrietarnoldphoto" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <circle cx="17.5" cy="6.5" r="1.5"></circle>
+                    </svg>
+                </a>
+                <a href="mailto:harrietarnoldphoto@gmail.com">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                </a>
+            </div>
+            <p class="copyright">© 2024 HARRIET ARNOLD</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
 </html>
