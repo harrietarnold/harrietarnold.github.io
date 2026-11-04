@@ -73,14 +73,14 @@ a:hover {
 }
 
 .nav-brand h1 {
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     font-weight: 400;
     letter-spacing: 0.08em;
     color: var(--text-cream);
 }
 
 .nav-brand p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     letter-spacing: 0.1em;
     color: var(--text-muted);
     font-family: 'Inter', sans-serif;
@@ -276,11 +276,11 @@ a:hover {
 
 .view-work {
     position: absolute;
-    bottom: 0.2rem;
+    bottom: 0.75rem;
     left: 0.75rem;
     font-size: 0.65rem;
     letter-spacing: 0.05em;
-    color: var(--accent-blue);
+    color: var(--text-cream);
     font-weight: 400;
     z-index: 20;
     text-transform: uppercase;
